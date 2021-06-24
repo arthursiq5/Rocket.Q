@@ -172,6 +172,6 @@ Com a instalação finalizada, abra o programa. Você deve se deparar com uma in
 
 ![tela inicial][vscode-welcome]
 
-   [vscode-gif]: ./vscode.gif
-   [vscode-welcome]: ./vscode-welcome.png
-   [icon-instalacao]: ./instalacao.svg
+   [vscode-gif]: ./img/vscode.gif
+   [vscode-welcome]: ./img/vscode-welcome.png
+   [icon-instalacao]: ./img/instalacao.svg

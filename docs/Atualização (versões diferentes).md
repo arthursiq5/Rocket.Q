@@ -113,6 +113,6 @@ npm -v
 
 Caso estejam nas versões 14.17.0 e 6.14.13, respectivamente, (ou posterior) a atualização ocorreu com sucesso. Lembre-se de que não tem problema caso sua versão seja posterior a essa desde que seja a LTS.
 
-   [icone-atualizacao]: ./atualizacao.svg
-   [remover-node-dependencias-1]: ./remover-node-dependencias-1.png
-   [remover-node-dependencias-2]: ./remover-node-dependencias-2.png
+   [icone-atualizacao]: ./img/atualizacao.svg
+   [remover-node-dependencias-1]: ./img/remover-node-dependencias-1.png
+   [remover-node-dependencias-2]: ./img/remover-node-dependencias-2.png

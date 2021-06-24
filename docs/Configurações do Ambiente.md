@@ -20,4 +20,4 @@ Se você já participou de alguma das nossas outras NLWs, já deve ter tudo isso
 
 Preparados? Então vamos lá!
 
-   [icon-link]: ./discover-icon.png
+   [icon-link]: ./img/discover-icon.png

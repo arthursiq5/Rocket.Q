@@ -51,4 +51,4 @@ Por fim, é preciso deixar claro que, para deixar o seu ambiente configurado, o 
 
 Caso esteja tendo problemas com a instalação por gerenciador de pacotes, você pode instalar o Node utilizando o método direto presente na [página principal do site](https://nodejs.org/en/). Lembre-se apenas de instalar a versão LTS em vez da Current.
 
-   [icone-problemas]: ./problemas.svg
+   [icone-problemas]: ./img/problemas.svg
