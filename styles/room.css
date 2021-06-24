@@ -102,6 +102,12 @@
     align-items: center;
 }
 
+.question-wrapper .question-content .user {
+    background-color: var(--blue);
+    clip-path: circle();
+    padding: 1.4rem;
+}
+
 .question-wrapper .question-content p {
     margin-left: 1.6rem;
 }
