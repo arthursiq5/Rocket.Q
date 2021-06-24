@@ -1,3 +1,7 @@
+.content {
+    width: min(112rem, 90%);
+}
+
 #room header {
     width: 100%;
 
