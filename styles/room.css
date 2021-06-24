@@ -99,7 +99,7 @@
 .question-wrapper .actions,
 .question-wrapper .actions > a {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .question-wrapper .question-content .user {
@@ -110,6 +110,10 @@
 
 .question-wrapper .question-content p {
     margin-left: 1.6rem;
+    word-break: break-word;
+    display: flex;
+    align-items: center;
+    min-height: 5.2rem;
 }
 
 .question-wrapper .actions {
