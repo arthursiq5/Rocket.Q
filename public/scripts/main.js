@@ -19,6 +19,9 @@ deleteButtons.forEach(button => {
 })
 
 function handleClick (event, check = true) {
+
+    event.preventDefault()
+
     let text = check ? 'Marcar como lida' : 'Excluir'
     let completeText = `${text} essa pergunta`
 
