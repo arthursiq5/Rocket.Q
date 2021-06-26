@@ -2,15 +2,18 @@
   "name": "Rocket.Q",
   "version": "1.0.0",
   "description": "projeto desenvolvido para gerenciar perguntas anônimas de usuários criado na Next Level Week da Rocketseat",
-  "main": "index.js",
+  "main": "src/server.js",
   "repository": "git@github.com:arthursiq5/Rocket.Q.git",
   "author": "Arthur Siqueira <arthur.siq5@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node src/server.js"
+    "start": "nodemon ."
   },
   "dependencies": {
     "ejs": "^3.1.6",
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
