@@ -19,9 +19,14 @@ deleteButtons.forEach(button => {
 })
 
 function handleClick (event, check = true) {
-    let text = check ? 'Marcar como lida essa pergunta' : 'Excluir essa pergunta'
-    modalTitle.innerHTML = text
-    modalDescription.innerHTML = `Tem certeza que deseja ${text.toLowerCase()}?`
+    let text = check ? 'Marcar como lida' : 'Excluir'
+    let completeText = `${text} essa pergunta`
+
+    modalTitle.innerHTML = completeText
+    modalDescription.innerHTML = `Tem certeza que deseja ${completeText.toLowerCase()}?`
+    modalButton.innerHTML = `Sim, ${text.toLowerCase()}`
+
+    check ? modalButton.classList.remove('red') : modalButton.classList.add('red')
 
     modal.open()
 }
