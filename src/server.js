@@ -5,7 +5,7 @@ const path = require('path')
 const server = express()
 
 server.set('view engine', 'ejs')
-server.set('views', path.join(__dirname, 'views'))
+server.set('views', path.join(__dirname, 'view'))
 
 server.use(route)
 
