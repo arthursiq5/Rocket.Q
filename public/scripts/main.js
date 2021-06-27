@@ -22,8 +22,14 @@ function handleClick (event, check = true) {
 
     event.preventDefault()
 
-    let text = check ? 'Marcar como lida' : 'Excluir'
-    let completeText = `${text} essa pergunta`
+    const text = check ? 'Marcar como lida' : 'Excluir'
+    const completeText = `${text} essa pergunta`
+    const slug = check ? 'check' : 'delete'
+    const questionId = event.target.dataset.id
+
+    const roomId = document.getElementById('room-id').dataset.id
+    const form = document.querySelector('.modal form')
+    form.setAttribute('action', `/room/${roomId}/${questionId}/${slug}`)
 
     modalTitle.innerHTML = completeText
     modalDescription.innerHTML = `Tem certeza que deseja ${completeText.toLowerCase()}?`
